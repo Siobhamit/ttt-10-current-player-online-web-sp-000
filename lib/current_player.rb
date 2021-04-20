@@ -1,4 +1,4 @@
-def current_player
+def current_player(board)
   turns.even? == "O"
 else "X"
 end
