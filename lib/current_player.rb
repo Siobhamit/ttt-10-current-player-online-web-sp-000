@@ -2,8 +2,8 @@
 def turn_count(board)
   board.each do |turn|
     turns = 0
-    if turn != " "
-       turns += 1
+      turn != " "
+      turns += 1
     end
   end
     return turns
