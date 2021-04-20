@@ -1,4 +1,7 @@
 def current_player
+  turns.even? == "O"
+else "X"
+end
 
 end
 
