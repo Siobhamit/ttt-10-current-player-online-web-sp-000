@@ -5,7 +5,6 @@ def turn_count(board)
       turn != " "
       turns += 1
     end
-  end
     return turns
 end
 
